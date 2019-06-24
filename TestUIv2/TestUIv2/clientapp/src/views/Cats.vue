@@ -2,22 +2,29 @@
     <div>
         <h1>Cats</h1>
         <div>
-            <b-table striped hover :items="cats"></b-table>
-        </div>
-        <div class="text-center my-3">
-            <b-button v-b-popover.hover="'I am popover content!'" title="Popover Title">Hover Me</b-button>
+            <b-table striped hover :items="cats">
+                <template slot="name" slot-scope="data">
+                    <!-- `data.value` is the value after formatted by the Formatter -->
+                    <router-link :to="`/pets/cats/${data.index}`">{{ data.value }}</router-link>
+                </template>
+            </b-table>
         </div>
     </div>
     
 </template>
 
 <script>
-import cats from '@/data/Cats'
+import { mapState } from 'vuex'
+
   export default {
     data() {
       return {
-        cats
       }
+        },
+        computed: {
+            ...mapState([
+                'cats'
+            ])
     }
   }
 </script>
