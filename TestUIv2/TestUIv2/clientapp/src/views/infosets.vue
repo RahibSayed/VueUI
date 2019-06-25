@@ -1,0 +1,28 @@
+﻿<template>
+    <div>
+        <h1>Infosets</h1>
+        <div>
+            <template>
+                <json-view class="text-left"
+                           :data="infosets" />
+            </template>
+        </div>
+    </div>
+
+</template>
+
+<script>
+import { mapState } from 'vuex'
+
+  export default {
+    data() {
+      return {
+      }
+        },
+        computed: {
+            ...mapState([
+                'infosets'
+            ])
+    }
+  }
+</script>
