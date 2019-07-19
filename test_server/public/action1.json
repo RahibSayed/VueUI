@@ -1,0 +1,959 @@
+[
+    {
+        "category": "report",
+        "last_used": [
+            {
+                "id": "06cdfb97-2b57-4ce0-988e-89b21d57879e",
+                "name": "UK_Lv_NSCNVF08_CFS01_SRD d002data$ shared8_axa hr_hr corp centre_HR CC - AF_PII"
+            },
+            {
+                "id": "07a043c9-e591-407f-bf38-c34880f6abb6",
+                "name": "HR"
+            },
+            {
+                "id": "12c5bbc8-435b-41ab-a7ed-c69715fe9cc3",
+                "name": "VF_NSCNVF01_CFS01_SRD"
+            },
+            {
+                "id": "154cebcc-dddb-4458-9e1a-b55b86371fc7",
+                "name": "NSZDVF02_CFS03_SRD CFS03_SRD$ D002DATA_appdata1_PCI"
+            },
+            {
+                "id": "1acfed6c-f1d8-4763-bfb0-80f553ebfe5b",
+                "name": "NSCNVF07_X014DataCL_PIIFINAL"
+            }
+        ],
+        "defunct": false,
+        "description": "Exports list of infoset data objects to a CSV file",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:nodes",
+            "format": "csv"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:nodes",
+        "id": "00000000-0000-0000-0000-000000001000",
+        "name": "CSV Infoset Data Object Export"
+    },
+    {
+        "category": "report",
+        "last_used": [
+            {
+                "id": "3dd4cf48-420a-4a0b-b686-6df3bec339cb",
+                "name": "All Data Objects - Exception filter - LNK - Date after 01/01/19"
+            },
+            {
+                "id": "e304a699-783e-49f4-a26e-176e61202295",
+                "name": "NSCNVF06_CFS02_USR PPP_Home$ Sam 3 Harmsworth_Work Harvest Exceptions"
+            }
+        ],
+        "defunct": false,
+        "description": "Exports list of exception objects to a CSV file",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:exceptions",
+            "format": "csv"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:exceptions",
+        "id": "00000000-0000-0000-0000-000000001001",
+        "name": "CSV Exception List Export"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Describes how data is distributed across your organization.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "data_topology.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001002",
+        "name": "Data Topology Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Lists data assessment for IT policies.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "data_assessment.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001003",
+        "name": "Data Assessment Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Inspect data for compliance with governance policies.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "compliance.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001004",
+        "name": "Compliance Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Compare responsiveness for various overlays.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "overlay_hit.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001005",
+        "name": "Overlay Hit Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Identifies duplicate objects contained within an infoset.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "excel",
+            "type": "report",
+            "template": "dedup_excel.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001006",
+        "name": "Duplication Summary Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Generates a unified audit log summary for an action run on a specific infoset.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "audit_summary.rptdesign"
+        },
+        "associates": [],
+        "is_service": true,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001007",
+        "name": "Audit Summary Report"
+    },
+    {
+        "category": "action",
+        "last_used": [],
+        "defunct": false,
+        "description": "Executes the step-up snippet action on an infoset.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "stepup:snippet"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "stepup:snippet",
+        "id": "4a816a0c-eb07-4753-b95b-abe171141663",
+        "name": "Step-up Snippet"
+    },
+    {
+        "category": "action",
+        "last_used": [],
+        "defunct": false,
+        "description": "Executes the step-up full-text action on an infoset.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "stepup:fulltext"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "stepup:fulltext",
+        "id": "25a20c1a-5a48-46b8-ae6d-fa3da8f6e7ee",
+        "name": "Step-up Full-Text"
+    },
+    {
+        "category": "action",
+        "last_used": [],
+        "defunct": false,
+        "description": "Delete data objects on an infoset.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "ignore_accessed_objects": false,
+            "type": "delete"
+        },
+        "associates": [],
+        "is_service": true,
+        "associations": [],
+        "type": "delete",
+        "id": "a79fd8e0-071c-4a56-9bd0-07fdcae38af2",
+        "name": "Delete Infoset Data Objects"
+    },
+    {
+        "category": "harvest",
+        "last_used": [],
+        "defunct": false,
+        "description": "Harvest Action",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "harvest"
+        },
+        "associates": [],
+        "is_service": true,
+        "associations": [],
+        "type": "harvest",
+        "id": "0e81b7dc-4c09-4d98-843c-67481e26ae8f",
+        "name": "Harvest"
+    },
+    {
+        "category": "enhancement",
+        "last_used": [],
+        "defunct": false,
+        "description": "Executes the step-up cube action on an infoset.",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "stepup:cube"
+        },
+        "associates": [],
+        "is_service": true,
+        "associations": [],
+        "type": "stepup:cube",
+        "id": "7e169bed-58b2-45a2-9c89-472f22f0fc8e",
+        "name": "Step-up Cube"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Report hit statistics for multiple terms on an infoset",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "termhit.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001008",
+        "name": "Term Hit Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Exports list of infoset data objects to a Content Collector Manifest File",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:iccmanifest",
+            "format": "csv"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:iccmanifest",
+        "id": "00000000-0000-0000-0000-000000001009",
+        "name": "Content Collector Manifest File CSV Export"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Exports list of all audited objects to a CSV file",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:allauditobjects",
+            "format": "csv"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:allauditobjects",
+        "id": "00000000-0000-0000-0000-000000001010",
+        "name": "CSV All Audited Objects Export"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Exports a summary of attribute counts for the InfoSet to a CSV",
+        "designation": null,
+        "creator": null,
+        "created": "2017-03-23T11:24:51Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:attributes",
+            "format": "csv"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:attributes",
+        "id": "00000000-0000-0000-0000-000000001011",
+        "name": "CSV Attribute Summary"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "",
+        "designation": null,
+        "creator": "f1d45e79-d549-41b1-a8f2-3e5c3446e3a1",
+        "created": "2017-05-25T14:42:53Z",
+        "modified": "2017-05-25T14:42:53Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:customattributes",
+            "columns": [
+                {
+                    "/Library/Attributes/Data object properties/Base file location": [
+                        "Base file location",
+                        "object_metadata"
+                    ]
+                }
+            ]
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:customattributes",
+        "id": "77b2c41e-2b72-458a-aba0-0df670801607",
+        "name": "Custom CSV Export"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "",
+        "designation": null,
+        "creator": "f1d45e79-d549-41b1-a8f2-3e5c3446e3a1",
+        "created": "2017-06-07T14:08:26Z",
+        "modified": "2017-06-07T14:08:26Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:customattributes",
+            "columns": [
+                {
+                    "/Library/Attributes/Data object properties/Base file location": [
+                        "Base file location",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Author": [
+                        "Author",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Bytes": [
+                        "Bytes",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Container": [
+                        "Container",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/CreatedOn": [
+                        "CreatedOn",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/date": [
+                        "date",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/DateCreated": [
+                        "DateCreated",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/DocName": [
+                        "DocName",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Last-Modified": [
+                        "Last-Modified",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Last Updated": [
+                        "Last Updated",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/LastUpdated": [
+                        "LastUpdated",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Location": [
+                        "Location",
+                        "object_metadata"
+                    ]
+                },
+                {
+                    "/Library/Attributes/Data object properties/Title": [
+                        "Title",
+                        "object_metadata"
+                    ]
+                }
+            ]
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:customattributes",
+        "id": "da4977b7-2238-4817-b8fc-8f015fe754dd",
+        "name": "Files for"
+    },
+    {
+        "category": "action",
+        "last_used": [],
+        "defunct": false,
+        "description": "BankAccountNumber,PhoneNumber,EmailAddress,PassportNumber,NationalIdNumber,IPAddress,",
+        "designation": null,
+        "creator": "f1d45e79-d549-41b1-a8f2-3e5c3446e3a1",
+        "created": "2017-08-21T15:30:20Z",
+        "modified": "2017-08-21T15:30:20Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "stepup:analytics",
+            "cartridge_ids": [
+                "710a41e6-1130-450c-b22a-bad1c9e5d6df"
+            ]
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "stepup:analytics",
+        "id": "6c06dd7a-84b0-4796-8a8c-90518adce468",
+        "name": "Step-up Analytics - Basic"
+    },
+    {
+        "category": "action",
+        "last_used": [
+            {
+                "id": "34f47164-e325-45b3-a902-74a2d0548066",
+                "name": "NSCNVF08_CFS01_SRD d002data$ shared8_axa hr_hr corp centre_HR Resourcing 0 byte"
+            },
+            {
+                "id": "894dc56f-0322-4d5f-9672-d1c1e534629e",
+                "name": "YDrive PII A"
+            },
+            {
+                "id": "aa3532c1-b4b5-48d2-b820-fa99827ad12e",
+                "name": "NSCNVF08_CFS01_SRD SHARED1 UK SEC FOR_SEC2015-020 0 byte"
+            },
+            {
+                "id": "b773c1e7-c65d-482c-9580-c0c325989474",
+                "name": "NSCNVF04_CFS01_SRD APPDATA6 0 byte"
+            },
+            {
+                "id": "e58c3f38-7bda-458d-9778-9ad29eea49d3",
+                "name": "NSCNVF04_CFS01_SRD SHARED6 WORDPRINTING 0 bytes"
+            }
+        ],
+        "defunct": false,
+        "description": "Step-up Analytics - Advanced - Date,Person,Address,PhoneNumber,Organization,Location, en,de,fr,es,zh,jp",
+        "designation": null,
+        "creator": "f1d45e79-d549-41b1-a8f2-3e5c3446e3a1",
+        "created": "2017-08-21T15:31:33Z",
+        "modified": "2017-08-21T15:31:33Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "stepup:analytics",
+            "cartridge_ids": [
+                "bc7073cd-7205-4638-8241-acabd8c6f8a9"
+            ]
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "stepup:analytics",
+        "id": "39f4755c-f434-4122-9f9f-fb6a693041bf",
+        "name": "Step-up Analytics - Advanced"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "PPP_Retention_Report",
+        "designation": null,
+        "creator": "ee7aae15-1d0d-44e1-81d6-2176c58d1c6f",
+        "created": "2018-02-01T15:56:20Z",
+        "modified": "2018-02-01T15:56:20Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:customattributes",
+            "columns": [
+                {
+                    "/Library/Attributes/System metadata/Volume": [
+                        "Volume",
+                        "volumeid"
+                    ]
+                },
+                {
+                    "/Library/Attributes/System metadata/Size": [
+                        "Size",
+                        "size"
+                    ]
+                },
+                {
+                    "/Library/Attributes/System metadata/Container path": [
+                        "Container path",
+                        "containerpath"
+                    ]
+                }
+            ]
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:customattributes",
+        "id": "3f6522f1-8fd9-42eb-810d-35c2009f596f",
+        "name": "PPP_Retention_Report Copy"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "PPP_Retention_Report",
+        "designation": null,
+        "creator": "ee7aae15-1d0d-44e1-81d6-2176c58d1c6f",
+        "created": "2018-01-12T12:27:13Z",
+        "modified": "2018-01-12T12:27:13Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:customattributes",
+            "columns": [
+                {
+                    "/Library/Attributes/System metadata/Object name": [
+                        "Object name",
+                        "objectname"
+                    ]
+                },
+                {
+                    "/Library/Attributes/System metadata/Container path": [
+                        "Container path",
+                        "containerpath"
+                    ]
+                },
+                {
+                    "/Library/Attributes/System metadata/System path": [
+                        "System path",
+                        "path"
+                    ]
+                },
+                {
+                    "/Library/Attributes/System metadata/Volume": [
+                        "Volume",
+                        "volumeid"
+                    ]
+                },
+                {
+                    "/Library/Attributes/System metadata/Size": [
+                        "Size",
+                        "size"
+                    ]
+                }
+            ]
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:customattributes",
+        "id": "bed8a1f7-6437-4b03-8af3-cee745de564d",
+        "name": "PPP_Retention_Report"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Exports details about term hits for cartridge and other terms to a CSV file",
+        "designation": null,
+        "creator": null,
+        "created": "2018-04-17T09:15:21Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "type": "export:cartridgereport",
+            "format": "csv"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "export:cartridgereport",
+        "id": "00000000-0000-0000-0000-000000001012",
+        "name": "CSV Term Hit Details Export"
+    },
+    {
+        "category": "action",
+        "last_used": [
+            {
+                "id": "df3f92cf-2deb-4d42-b44f-0443d01ccbc8",
+                "name": "YDrive - Performance Review"
+            }
+        ],
+        "defunct": false,
+        "description": "Move data to 'StoredIQ'",
+        "designation": null,
+        "creator": "f1d45e79-d549-41b1-a8f2-3e5c3446e3a1",
+        "created": "2017-06-26T13:34:50Z",
+        "modified": "2018-06-29T09:23:32Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "destination_path": "StoredIQ",
+            "targetset_name": "ipmo",
+            "targetset_id": "d5ca7121-390c-4c33-b9ae-60574d633f77",
+            "migrate_security_attributes": "all",
+            "type": "move:plain",
+            "recreate_directory_structure": true,
+            "targetset_protocol": "cifs"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "move:plain",
+        "id": "7d17639e-6356-4c2c-8851-edf07db6c131",
+        "name": "Move data objects CAUTION"
+    },
+    {
+        "category": "action",
+        "last_used": [],
+        "defunct": false,
+        "description": "",
+        "designation": null,
+        "creator": "0d5fc9d6-84da-46b9-a9ad-409d0984de26",
+        "created": "2018-06-08T08:33:29Z",
+        "modified": "2018-06-22T14:06:23Z",
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "compute_hash_value": false,
+            "copy_sharepoint_userprofile_wikis": false,
+            "email_item_disposition": "msg",
+            "targetset_id": "98a5208c-39a7-4d85-a96d-fcda9f03b10f",
+            "sharepoint_versions": "responsive",
+            "copy_sharepoint_userprofile_libraries": false,
+            "targetset_protocol": "cifs",
+            "copy_sharepoint_userprofile_posts": false,
+            "force_full_copy": false,
+            "no_auto_harvest": false,
+            "sharepoint_disposition": "responsive",
+            "copy_sharepoint_userprofile_notes": false,
+            "preserve_version_chains": false,
+            "type": "copy:plain",
+            "recreate_directory_structure": true,
+            "email_archive_disposition": "responsive",
+            "destination_path": "SIQMOVE TEST",
+            "file_archive_disposition": "responsive",
+            "copy_modified_objects": false,
+            "segregate_by_source_volume": false,
+            "copy_sharepoint_userprofile_misc": false,
+            "targetset_name": "Ins Move Test 2206",
+            "preserve_permissions": false,
+            "migrate_security_attributes": "none",
+            "preserve_owners": false
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "copy:plain",
+        "id": "7c563225-ec1b-4198-8c73-7f19a9b4d70e",
+        "name": "RS COPY ACTION"
+    },
+    {
+        "category": "report",
+        "last_used": [],
+        "defunct": false,
+        "description": "Shows the distribution of sensitive data based on sensitivity level",
+        "designation": null,
+        "creator": null,
+        "created": "2018-09-11T10:02:07Z",
+        "modified": null,
+        "full_accesslist": {
+            "userlist": [],
+            "public": true
+        },
+        "accesslist": {
+            "type": "public"
+        },
+        "action": {
+            "export_type": "pdf",
+            "type": "report",
+            "template": "sensitiveinfosummary.rptdesign"
+        },
+        "associates": [],
+        "is_service": false,
+        "associations": [],
+        "type": "report",
+        "id": "00000000-0000-0000-0000-000000001013",
+        "name": "Data Privacy Report Card"
+    }
+]
